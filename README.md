@@ -29,5 +29,6 @@ Priya Jha</br>
 Payal Jha
 ## Author
 🏢 **Suraksha Kavach**
-- Github: [@Suraksha Kavach](https://github.com/jhaakshita27/innerve-hack.git)
+- Github: [@Suraksha Kavach](https://github.com/jhaakshita27/innerve-hack.git) <br>
+- Site Link: [Suraksha Kavach](https://jhaakshita27.github.io/innerve-hack/)
 ## Fight For Your Right
