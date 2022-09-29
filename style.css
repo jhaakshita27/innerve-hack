@@ -9,7 +9,8 @@ html {
 
 body {
   font: normal 0.8em "Bellefair", arial, sans-serif;
-  background: #f0efe2 url(background.png) repeat;
+  background: black ;
+  /* url(background.png) repeat */
   color: #fff;
 }
 
@@ -85,7 +86,7 @@ blockquote {
   margin: 20px 0;
   padding: 10px 20px 0 20px;
   border: 1px solid #e5e5db;
-  background: #fff;
+  background: black;
 }
 
 ul {
@@ -113,17 +114,21 @@ ol li {
 #footer {
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+  width: 100%;
 }
 
 #header {
   background: transparent;
   height: 202px;
+  width: 100%;
 }
 
 #logo {
-  width: 898px;
+  /* width: 898px; */
   position: relative;
   height: 148px;
+  margin-left: 10rem;
 }
 
 #logo #logo_text {
@@ -156,7 +161,7 @@ ol li {
 }
 
 #logo_text h1 a .logo_colour2 {
-  color: #000000;
+  color: white;
   font: italic 36px garamond;
   font-family: "Princess sofia";
 }
@@ -168,28 +173,39 @@ ol li {
 }
 
 #menubar {
-  width: 898px;
+  width: 100%;
   height: 52px;
   padding: 0;
   background: #000;
+ /* text-align: center;
+ margin-left: auto;
+ display:inline-block;
+}
+#menu{
+  text-align:center;
+  margin: auto;
+  display:inline-block; */
 }
 
 ul#menu,
 ul#menu li {
-  float: left;
+
   margin: 0;
   padding: 0;
+  text-align: center;
+  display:inline-block;
 }
 
 ul#menu li {
   list-style: none;
+  display:inline-block;
 }
 
 ul#menu li a {
   letter-spacing: 0.1em;
   font: normal 100% "Bellefair", arial, sans-serif;
   display: block;
-  float: left;
+ 
   height: 17px;
   margin: 10px 0 0 10px;
   padding: 9px 26px 6px 26px;
@@ -198,6 +214,7 @@ ul#menu li a {
   text-transform: uppercase;
   text-decoration: none;
   background: transparent;
+  display:inline-block;
 }
 
 ul#menu li a:hover,
@@ -208,7 +225,7 @@ ul#menu li.selected a:hover {
 }
 
 #site_content {
-  width: 854px;
+  width: 100%;
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 0 24px 20px 20px;
@@ -217,12 +234,12 @@ ul#menu li.selected a:hover {
 
 .sidebar {
   float: right;
-  width: 210px;
-  padding: 0 15px 20px 15px;
+  width: 20%;
+  padding: 0 10rem 20px 15px;
 }
 
 .sidebar ul {
-  width: 198px;
+  /* width: 198px; */
   padding: 4px 0 0 0;
   margin: 4px 0 30px 0;
 }
@@ -246,13 +263,13 @@ ul#menu li.selected a:hover {
 
 #content {
   text-align: center;
-  padding: 0;
+  margin-left: 10rem;
 }
 
 #content1 {
   text-align: center;
   float: center;
-  width: 595px;
+  /* width: 595px; */
   padding: 0;
 }
 #content ul {
@@ -268,7 +285,7 @@ ul#menu li.selected a:hover {
 }
 
 #footer {
-  width: 898px;
+  /* width: 898px; */
   font: normal 100% "Bellefair", arial, sans-serif;
   height: 33px;
   padding: 24px 0 5px 0;
@@ -277,6 +294,7 @@ ul#menu li.selected a:hover {
   color: #000;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  color:white;
 }
 
 #footer a {
@@ -292,7 +310,7 @@ ul#menu li.selected a:hover {
 .search {
   color: #5d5d5d;
   border: 1px solid #bbb;
-  width: 134px;
+  /* width: 134px; */
   padding: 4px;
   font: 100% "Bellefair", arial, sans-serif;
 }
@@ -313,14 +331,16 @@ ul#menu li.selected a:hover {
 
 .form_settings span {
   float: left;
-  width: 200px;
+  width: 20%;
   text-align: left;
+  padding-left: 20 rem;
+  padding-right: 20 rem;
 }
 
 .form_settings input,
 .form_settings textarea {
   padding: 5px;
-  width: 299px;
+  /* width: 299px; */
   font: 100% "Bellefair", arial;
   border: 1px solid #e5e5db;
   background: #fff;
@@ -330,7 +350,7 @@ ul#menu li.selected a:hover {
 .form_settings .submit {
   font: 100% arial;
   border: 1px solid;
-  width: 99px;
+  /* width: 99px; */
   margin: 0 0 0 212px;
   height: 33px;
   padding: 2px 0 3px 0;
@@ -358,7 +378,7 @@ ul#menu li.selected a:hover {
 }
 
 .separator {
-  width: 100%;
+  /* width: 100%; */
   height: 0;
   border-top: 1px solid #d9d5cf;
   border-bottom: 1px solid #fff;
@@ -384,7 +404,9 @@ table tr td {
 }
 
 body {
-  background: white;
+  background: black;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .zoomimage {
@@ -393,6 +415,7 @@ body {
   overflow: hidden;
   text-align: center;
   padding: 30px;
+  
 }
 
 img {
