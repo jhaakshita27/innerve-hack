@@ -27,7 +27,7 @@ signin.addEventListener("click",function(e){
             allTasks = JSON.parse(allTasks);
             for(let i = 0; i < allTasks.length; i++){
                 if(email_data.innerText ==allTasks[i].email && pass_data.value ==allTasks[i].password){
-                    window.location.href = "netflixPage.html";
+                    window.location.href = "../index.html";
                     c++;
                     return;
                 }
